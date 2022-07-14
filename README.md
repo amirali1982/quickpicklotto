@@ -10,8 +10,9 @@
 My assumptions are:
 
 - A ticket contains a collection of unique games.
+- A ticket can have between 4 and 50 games.
 - QuickPick ticket is accessed by specifying the number of games using this URL: `http://localhost:8080/quickpick/5`
-- A single game contains 7 unique numbers.
+- A single game contains 7 unique numbers from 1-47.
 
 
 ### Building and Running this microservice
