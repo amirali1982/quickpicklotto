@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "1b537878-c876-4e4a-8adc-2f581c160938",
+		"name": "Quick Pick Lotto",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9609878"
+	},
+	"item": [
+		{
+			"name": "Welcome",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/cheeseria",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cheeseria"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Quick Pick n Games",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/quickpick/:noOfGames",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"quickpick",
+						":noOfGames"
+					],
+					"variable": [
+						{
+							"key": "noOfGames",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
